@@ -1,0 +1,30 @@
+
+.container {
+    display: flex;
+    align-items:top;
+    justify-content:center;
+  }
+  
+  /* img { */
+    /* max-width: 100% */
+  /* } */
+  
+  .image {
+    flex-basis: 210%;
+    padding:10px;
+    height:11%;
+  }
+  
+  .text {
+    font-size: 25px;
+    padding-left: 50px;
+    /* padding-top:0px ; */
+    font-style:italic;
+    line-height: 1.5;
+  }
+  .last{
+    background-image:url("https://tse2.mm.bing.net/th?id=OIP.rVcRhuDNlV0Ve7sdFi1VNgHaEo&pid=Api&P=0&h=180");
+  }
+  .last center{
+    padding-top: 50px;
+  }

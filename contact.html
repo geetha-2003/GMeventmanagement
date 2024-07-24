@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contact">
+        <div class="page">
+            <form action="connect.php" method="post" target="_blank">
+                            <center><h2>CONTACT PAGE</h2></center><hr>
+            <h3>PERSONAL DETAILS</h3><hr>
+            <label>FIRST NAME:</label>
+            <input type="text" name="first name" required>
+            <label style="padding-left:5px">LAST NAME:</label>
+            <input type="text" name="last name" required>
+            <label>EMAIL:</label>
+            <input type="email" name="email" required>
+            <label style="padding-left:10px">PHONE:</label>
+            <input type="number" name="number" required><br>
+            <label>ADDRESS:</label>
+            <input type="text" name="address" required>
+            <label style="padding-left:40px">STATE:
+            <select id="state" style="width: 250px;height:35px;">
+                <option>Select</option>
+                <option value="ap">ANDHRA PRADESH</option>
+                <option value="te">TELENGANA</option>
+            </select>
+        </label><hr>
+        <h3>EVENT DETAILS</h3><hr><br>
+        <label>EVENTTYPE:
+            <select id="event" style="width: 300px;height:35px;">
+                <option>Select</option>
+                <option value="ap">WEDDING</option>
+                <option value="te">WEDDING RECEPTION</option>
+                <option value="hc">HALDI CEREMONY</option>
+                <option value="br">MEHENDHI CEREMONY</option>
+                <option value="me">BIRTHDAY PARTY</option>
+                <option value="bs">BABY SHOWER</option>
+                <option value="md">MOONLIGHT DINNER</option>
+                <option value="bv">BABY GENDER REVEAL PARTY</option>
+                <option value="nh">BRIDE TO BE </option>
+            </select>
+        </label>
+        <label style="padding-left:40px">STATE:
+            <select id="state" style="width: 300px;height:35px;">
+                <option>Select</option>
+                <option value="ap">ANDHRA PRADESH</option>
+                <option value="te">TELENGANA</option>
+            </select>
+        </label><br><br>
+        <label> VENUE DATE:</label>
+         <input type="date" id="dob" name="dob">
+         <label style="padding-left:10px ">VENUE TIME:</label>
+         <input type="time" id="appt" name="appt" min="09:00" max="18:00" required /><br><br>
+         <center>
+            <button type="button" style="height:30px;width:90px;background-color:rgb(221, 209, 190)"> SUBMIT </button>
+           </center>
+           </form>
+        </div>
+    </div>
+</body>
+</html>

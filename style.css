@@ -1,0 +1,30 @@
+.one{
+      padding-top: 100px;  
+}
+h1{
+    font-size:50px;
+    font-style: italic;
+    color:lemonchiffon;
+    padding-top: 250px;
+    text-align: center;
+    }
+    body{
+        background-image: url("https://wallpapercave.com/wp/wp7488228.jpg");
+        background-size: cover;
+    }
+    .one i{
+        font-size:30px; 
+        color:aqua;
+        /* text-align: center; */
+        padding-left: 600px;
+    }
+    .two{
+        background-color: aliceblue;
+        width:100%;
+    }
+    .two i{
+        /* text-align: center; */
+        color:darkblue;
+        font-size:medium;
+    }
+    
